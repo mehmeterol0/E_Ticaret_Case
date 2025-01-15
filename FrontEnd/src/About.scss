@@ -1,0 +1,24 @@
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .about-text {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    border: 3px solid #333;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }

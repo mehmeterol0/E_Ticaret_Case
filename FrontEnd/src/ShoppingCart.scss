@@ -1,0 +1,24 @@
+.ShoppingCart {
+  margin-left: auto;
+  margin-right: 20px;
+  width: 25%;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .CartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .Total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+}

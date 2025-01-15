@@ -1,0 +1,55 @@
+.ProductPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.ProductList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1;
+}
+
+.product-card {
+  max-width: 300px;
+}
+
+.Cart {
+  position: fixed; /* Sepeti sağda sabit tutuyoruz */
+  top: 20px; /* Üstten 20px uzaklık */
+  right: 20px; /* Sağdan 20px uzaklık */
+  width: 300px; /* Sepetin genişliği */
+  background-color: #fff; /* Arka plan rengini beyaz yapıyoruz */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 80vh; /* Yüksekliği sınırlandırıyoruz */
+  overflow-y: auto; /* İçerik taşarsa kaydırma çubuğu ekleriz */
+}
+
+.Cart .cart-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Cart .cart-actions button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.Cart h6 {
+  font-weight: bold;
+}
+
+.Cart table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Cart table td {
+  padding: 8px;
+}
